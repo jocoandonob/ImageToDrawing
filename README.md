@@ -1,6 +1,34 @@
 # Image to Drawing Converter
 
+<div align="center">
+  <img src="thumb.png" alt="Image to Drawing Converter" width="200"/>
+  <br>
+  <p><em>Transform your photos into artistic drawings using AI</em></p>
+</div>
+
 A Streamlit application that converts images into artistic drawings using computer vision techniques.
+
+## Features
+- ✏️ Convert images to pencil sketches
+- 🖋️ Convert images to pen sketches
+- 💾 Download converted images
+- 🎨 User-friendly web interface
+
+## Quick Start
+
+### Using Docker
+
+1. Pull the image:
+```bash
+docker pull your-dockerhub-username/image-to-drawing:latest
+```
+
+2. Run the container:
+```bash
+docker run -p 5000:5000 your-dockerhub-username/image-to-drawing:latest
+```
+
+The application will be available at `http://localhost:5000`
 
 ## Docker Instructions
 
@@ -27,20 +55,6 @@ docker login
 docker push your-dockerhub-username/image-to-drawing:latest
 ```
 
-### Running the Container
-
-1. Pull the image (if running on a different machine):
-```bash
-docker pull your-dockerhub-username/image-to-drawing:latest
-```
-
-2. Run the container:
-```bash
-docker run -p 5000:5000 your-dockerhub-username/image-to-drawing:latest
-```
-
-The application will be available at `http://localhost:5000`
-
 ### Additional Docker Commands
 
 - View running containers:
@@ -63,12 +77,6 @@ docker rm <container_id>
 docker rmi your-dockerhub-username/image-to-drawing:latest
 ```
 
-## Features
-- Convert images to pencil sketches
-- Convert images to pen sketches
-- Download converted images
-- User-friendly web interface
-
 ## Requirements
 - Python 3.10.11
 - OpenCV
@@ -77,4 +85,7 @@ docker rmi your-dockerhub-username/image-to-drawing:latest
 - Pillow
 - Requests
 
-All dependencies are automatically installed in the Docker container. 
+All dependencies are automatically installed in the Docker container.
+
+## License
+This project is open source and available under the MIT License. 

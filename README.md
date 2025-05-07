@@ -1,7 +1,7 @@
 # Image to Drawing Converter
 
 <div align="center">
-  <img src="generated-icon.png" alt="Image to Drawing Converter" width="200"/>
+  <img src="generated-icon.png" alt="Image to Drawing Converter" width="1000"/>
   <br>
   <p><em>Transform your photos into artistic drawings using AI</em></p>
 </div>

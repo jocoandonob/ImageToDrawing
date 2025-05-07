@@ -1,0 +1,5 @@
+streamlit>=1.45.0
+opencv-python>=4.11.0.86
+numpy>=2.2.5
+pillow>=11.2.1
+requests>=2.32.3 
